@@ -13,7 +13,7 @@ For that task, I’m using Xavier Gourdon algorithm described in his “Computat
 ---
 <p align="center"><img src="https://user-images.githubusercontent.com/38574378/132773469-08fb7b59-2f9d-4641-9665-c8d50d3904bc.png"><b>   ATTENTION   </b><img src="https://user-images.githubusercontent.com/38574378/132773469-08fb7b59-2f9d-4641-9665-c8d50d3904bc.png"></p> 
 
-When compared to a version running on PC, this code on Arduino Nano has an approximation error on the last 2-3 digits, rendering only the first 3-5 digits useable. Believe this is due to double type on ATMEGA occupying only 4 bytes. Further refinement of the code is needed for ATMEGA.
+When compared to a version running on PC, this code on Arduino Nano has an approximation error on the last 2-3 digits each interaction, rendering only the first 3-5 digits useable (the algorithm produces 6 digits, counting left to right from the starting position). Believe this is due to double type on ATMEGA occupying only 4 bytes. Further refinement of the code is needed for ATMEGA.
 
 ---
 
